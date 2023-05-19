@@ -61,7 +61,7 @@ To run an APPL file, run
 ```sh
 python3 appl.py <filename.appel>
 ```
-If you're on Linux/Unix or Mac, you can put that code into an alias (eg. `appl`) in your `.bashrc`/`.zprofile`/`.profile`. (`alias appl="python3 ~/Desktop/APPL/appl.py $1"` I don't really know what to do on Windows if you want to use APPL anywhere, because I'm using Mac. You could just use APPL only in the directory where you have it stored. Sorry about that.
+If you're on Linux/Unix or Mac, you can put that code into an alias (eg. `appl`) in your `.bashrc`/`.zprofile`/`.profile`. ( I did `alias appl="python3 ~/Desktop/APPL/appl.py $1"`). I don't really know what to do on Windows if you want to use APPL anywhere, because I'm using Mac. You could just use APPL only in the directory where you have it stored. Sorry about that.
 
 ## Limitations
 Keep in mind, there are many limitations. You can't use stdin, graphics, system commands, the list goes on.
