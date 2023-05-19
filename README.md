@@ -49,7 +49,7 @@ Install `google.generativeai` with pip:
 pip install google-generativeai
 ```
 
-Go to (Google MakerSuite)[https://makersuite.google.com/] and get an API key. Then go to `appl.py`. On line 31:
+Go to [Google MakerSuite](https://makersuite.google.com/) and get an API key. Then go to `appl.py`. On line 31:
 ```py
 palm.configure(api_key="Get your API key at Google MakerSuite and paste it here")
 ```
