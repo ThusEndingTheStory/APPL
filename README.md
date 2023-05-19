@@ -16,7 +16,7 @@ if name is "Jerry" then
 end if
 ```
 And here's another:
-```js
+```wl
 var name = "Jerry";
 
 if {name == "Jerry"} [
@@ -27,7 +27,7 @@ if {name == "Jerry"} [
 The syntax of APPL can be ***whatever you want.***
 
 Made with Google's Palm AI, APPL was created as a tool to test and run pseudocode, but it can be used for much more. For instance, if you want to use an imaginary imported module, just do something like this:
-```py
+```js
 import hello
 // `greet` returns "Hi, " + the first parameter + "!"
 println(hello.greet("Barbara"))
