@@ -27,7 +27,7 @@ if {name == "Jerry"} [
 The syntax of APPL can be ***whatever you want.***
 
 Made with Google's Palm AI, APPL was created as a tool to test and run pseudocode, but it can be used for much more. For instance, if you want to use an imaginary imported module, just do something like this:
-```
+```py
 import hello
 // `greet` returns "Hi, " + the first parameter + "!"
 println(hello.greet("Barbara"))
@@ -37,12 +37,14 @@ println(hello.greet("Barbara"))
 APPL is compatible on Linux/Unix, Mac, and Windows.
 
 ## Usage
-First, `git clone` this repository:
-```sh
+First, go to where you want APPL to be stored. I used my Desktop.
 
+Then, `git clone` this repository:
+```sh
+git clone https://github.com/ThusEndingTheStory/APPL.git
 ```
 
-Then install `google.generativeai` with pip:
+Install `google.generativeai` with pip:
 ```sh
 pip install google-generativeai
 ```
@@ -53,11 +55,13 @@ palm.configure(api_key="Get your API key at Google MakerSuite and paste it here"
 ```
 And paste your API key in the string.
 
+There you go!
+
 To run an APPL file, run
 ```sh
 python3 appl.py <filename.appel>
 ```
-If you're on Linux/Unix or Mac, you can put that code into an alias (eg. `appl`) in your `.bashrc`/`.zprofile`/`.profile`.
+If you're on Linux/Unix or Mac, you can put that code into an alias (eg. `appl`) in your `.bashrc`/`.zprofile`/`.profile`. (`alias appl="python3 ~/Desktop/APPL/appl.py $1"` I don't really know what to do on Windows if you want to use APPL anywhere, because I'm using Mac. You could just use APPL only in the directory where you have it stored. Sorry about that.
 
 ## Limitations
 Keep in mind, there are many limitations. You can't use stdin, graphics, system commands, the list goes on.
