@@ -8,7 +8,7 @@ APPL is an artificial intelligence-powered programming language.
 That sounds cool, but what does it **mean?**
 
 Here's a sample of the syntax:
-```
+```pl
 set name to "Jerry"
 
 if name is "Jerry" then
@@ -16,7 +16,7 @@ if name is "Jerry" then
 end if
 ```
 And here's another:
-```
+```js
 var name = "Jerry";
 
 if {name == "Jerry"} [
@@ -33,21 +33,28 @@ import hello
 println(hello.greet("Barbara"))
 ```
 
-## About
+## Notes
+APPL is compatible on Linux/Unix, Mac, and Windows.
 
 ## Usage
-First, install `google.generativeai` with pip:
+First, `git clone` this repository:
+```sh
+
 ```
+
+Then install `google.generativeai` with pip:
+```sh
 pip install google-generativeai
 ```
 
-Then go to `appl.py`. On line 31, change
+Go to (Google MakerSuite)[https://makersuite.google.com/] and get an API key. Then go to `appl.py`. On line 31:
 ```py
-
+palm.configure(api_key="Get your API key at Google MakerSuite and paste it here")
 ```
+And paste your API key in the string.
 
 To run an APPL file, run
-```
+```sh
 python3 appl.py <filename.appel>
 ```
 If you're on Linux/Unix or Mac, you can put that code into an alias (eg. `appl`) in your `.bashrc`/`.zprofile`/`.profile`.
