@@ -28,7 +28,7 @@ except IndexError:
     print("Usage:\n\n\tpython3 appl.py <filename.appel>\n")
     exit(1)
 
-palm.configure(api_key="AIzaSyDjNbkJ6ScCbjX7GWW3P3kWnLP5FtznGXQ") # API KEY
+palm.configure(api_key="Get your API key at Google MakerSuite and paste it here")
 
 defaults = {
     'model': 'models/text-bison-001',
